@@ -22,7 +22,7 @@ services:
        - "80:80"
      restart: always
      volumes:
-       - ./is-bridge:/var/www/html/wp-content/plugins/is-bridge
+       - ./:/var/www/html
        - ./errors/apache2:/var/log/apache2
      environment:
        WORDPRESS_DB_HOST: db:3306
