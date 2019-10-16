@@ -242,11 +242,11 @@ class Is_Bridge_Infusionsoft_Helper {
 	}
 
 	public function getInfusionsoft(){
-		if($this->isIsAuthed){
+		// if($this->isIsAuthed){
 			return $this->infusionsoft;
-		} else {
-			return null;
-		}
+		// } else {
+		// 	return null;
+		// }
 	}
 
 }
