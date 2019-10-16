@@ -72,9 +72,6 @@ class Is_Bridge_Contact_Helper {
 			case "json":
 				return json_encode($contacts);
 				break;
-			case "echo":
-				echo $contacts;
-				break;
 			default:
 				return $contacts;
 				break;
